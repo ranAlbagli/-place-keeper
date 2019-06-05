@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form>
+        <label for="background-color">Background-color: </label>
+        <input type="color" class="bgc-color" name="background-color"/>
+
+        <label for="text-color">Text-color: </label>
+        <input type="color" class="txt-color" name="text-color" />
+
+        <label for="date">Date of Birth:</label>
+        <input type="date" class="date" name="date" />
+
+        <label for="time"> Time:</label>
+        <input type="time"  name="time" class="time"/>
+         
+        <button onclick="onSubmit(event)">Submit</button>
+    </form>
+
+    <script src="js/utilService.js"></script>
+    <script src="js/userPrefService.js"></script>
+    <script src="js/placeService.js"></script>
+    <script src="js/userPfefCtrl.js"></script>
+    <script src="js/placeCtrl.js"></script>
+</body>
+
+</html>

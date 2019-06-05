@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/map.css">
+</head>
+
+<body onload="initMap()">
+    
+    <!--The div element for the map -->
+    <div id="map"></div>
+    <button class="home"><img src="img/location.png" onclick="getUserCords()"></button>
+        <ul class="board">
+        </ul>
+
+    
+
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGZ3LH0LffVcnEF8jVRANjHUgKqxDidkA&callback=initMap">
+    </script>
+    <script src="js/utilService.js"></script>
+    <script src="js/userPrefService.js"></script>
+    <script src="js/placeService.js"></script>
+    <script src="js/userPfefCtrl.js"></script>
+    <script src="js/placeCtrl.js"></script>
+</body>
+
+</html>
